@@ -213,8 +213,9 @@ pub struct DistributeStakingRewards<'info> {
     #[account(mut)]
     pub user: Account<'info, User>,
     // The mint account used for minting new tokens
-    pub mint: Account<'info, Mint>,
     #[account(mut)]
+    pub mint: Account<'info, Mint>,
+    #[account(mut, signer)]
     // The authority account that signs the transactions
     pub authority: Signer<'info>,
     pub token_program: Program<'info, token::Token>,
