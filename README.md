@@ -53,6 +53,24 @@ Error Codes
 •NoStakedAmount: Error indicating zero staked token amount.
 •Overflow: Error indicating a mathematical overflow.
 
+Setup
+----------
+1-Requirements:
+•Solana CLI
+•Anchor framework
+•Rust programming language
+
+2-Clone and Build the Project:
+git clone <repository_url>
+cd <repository_directory>
+anchor build
+
+3-Connect to the Solana Network:
+solana config set --url <network_url>
+
+4-Deploy the Program:
+anchor deploy
+
 Purpose and Usage
 ----------
 The purpose of this code is to create a reward system on the Solana network, allowing users to earn reward tokens for loan transactions and staking their tokens. It includes all the necessary operations for setting up the system, distributing rewards, and managing staking rewards. This system can be used in DeFi projects, games, or any application requiring a reward mechanism. You can scale your reward system by leveraging Solana’s fast and low-cost transactions.
