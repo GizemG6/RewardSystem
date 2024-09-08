@@ -6,6 +6,7 @@ This project is a smart contract written in Rust, designed to create a reward sy
 Features and Functions of the Program
 ----------
 Token Minting
+
 •initialize(): This function creates a new token mint (generation address) and mints a specified amount of tokens initially. These tokens are held in an account that represents the reward pool. For example, you can mint 1 million tokens to create a reward pool.
 •Parameters:
   -amount (u64): The amount of tokens to be minted for the initial supply.
