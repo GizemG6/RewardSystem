@@ -1,4 +1,4 @@
-# Superteam_Rust_Bootcamp_RewardSystem
+RewardSystem
 Overview
 ----------
 This project is a smart contract written in Rust, designed to create a reward system on the Solana blockchain. The smart contract allows users to mint reward tokens, distribute rewards, stake tokens, and earn rewards for staked tokens. It is written using the Anchor framework.
